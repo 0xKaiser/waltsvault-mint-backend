@@ -15,9 +15,9 @@
   },
 
   "types": {
-    "whitelist": [
+    "orderInfo": [
       { "name": "nonce", "type": "uint256" },
-      { "name": "listType", "type": "uint256" },
+      { "name": "allocatedSpots", "type": "uint256" },
       { "name": "userAddress", "type": "address" }
       
     ]
@@ -34,7 +34,7 @@
       "address": {
         "type": "String"
       },
-      "listType": {
+      "allocatedSpots": {
         "type": "Number"
       }
     }
