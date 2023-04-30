@@ -1,0 +1,62 @@
+{
+  "apiControl":{
+      "unique":false
+  },
+  "swagger": {
+    "title": "",
+    "description": "",
+    "host": ""
+  },
+  "domain": {
+    "name": "Walts_Vault",
+    "version": "1",
+    "chainId": 5,
+    "verifyingContract": "0xE4B1903789c0CCE595A47A1dC921874DcF656F5f"
+  },
+
+  "types": {
+    "whitelist": [
+      { "name": "nonce", "type": "uint256" },
+      {"name":"availableSpots", "type":"uint256"},
+      { "name": "listType", "type": "uint256" },
+      { "name": "userAddress", "type": "address" }
+      
+    ]
+  },
+  "metadata": {
+    "description": "",
+    "external_url": "",
+    "image": "",
+    "name": "Walts Vault"
+  },
+  "schema": {
+    "schemaName": "whitelistSchema",
+    "schemaDetails": {
+      "address": {
+        "type": "String"
+      },
+      "listType": {
+        "type": "Number"
+      },
+      "spots":{
+        "type":"Number"     
+      }
+    }
+  },
+
+  "signer": {
+    "userAddress": "",
+    "listType": ""
+  },
+
+  "contract_metadata" :{
+    
+    "name": " ",
+    "description": "",
+    "image": " ",
+    "external_link": " ",
+    "seller_fee_basis_points": 100,
+    "fee_recipient": " "
+    }
+    
+}
