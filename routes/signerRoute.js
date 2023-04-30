@@ -52,11 +52,11 @@ router.post('/unique', async (req,res) =>{
         else{
             const ts = parseInt(Date.now()/1000)
             console.log(ts);
-            const sign = await signTransaction(walletAddress.address, walletAddress.listType, ts);
+            const sign = await signTransaction(walletAddress.address, walletAddress.allocatedSpots, ts);
             res.send({
                 address: walletAddress.address,
-                listType: walletAddress.listType,
-                signature : [ts, walletAddress.listType, walletAddress.address, sign]
+                listType: walletAddress.allocatedSpots,
+                signature : [ts, walletAddress.allocatedSpots, walletAddress.address, sign]
             })
         }
     }
