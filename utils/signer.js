@@ -4,7 +4,7 @@ const getDomain = config.get("domain");
 const ethers = require("ethers");
 const wallet = new ethers.Wallet(process.env.PRIVATE_KEY);
 console.log(config);
-module.exports.signTransaction = async (userAddress, listType, nonce, availableSpots) => { //here
+module.exports.signTransaction = async (userAddress, listType, nonce) => { //here
   const domain = {
     name: getDomain.name,
     version: getDomain.version,
@@ -16,7 +16,7 @@ module.exports.signTransaction = async (userAddress, listType, nonce, availableS
 
    //here
   const value = {
-    nonce,availableSpots, listType, userAddress
+    nonce, listType, userAddress
   };
 
   return await wallet._signTypedData(domain, types, value);

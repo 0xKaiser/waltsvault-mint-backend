@@ -1,6 +1,6 @@
 {
   "apiControl":{
-      "unique":false
+      "unique":true
   },
   "swagger": {
     "title": "",
@@ -17,7 +17,6 @@
   "types": {
     "whitelist": [
       { "name": "nonce", "type": "uint256" },
-      {"name":"availableSpots", "type":"uint256"},
       { "name": "listType", "type": "uint256" },
       { "name": "userAddress", "type": "address" }
       
@@ -26,8 +25,8 @@
   "metadata": {
     "description": "",
     "external_url": "",
-    "image": "",
-    "name": "Walts Vault"
+    "image": " ",
+    "name": ""
   },
   "schema": {
     "schemaName": "whitelistSchema",
@@ -37,9 +36,6 @@
       },
       "listType": {
         "type": "Number"
-      },
-      "spots":{
-        "type":"Number"     
       }
     }
   },
