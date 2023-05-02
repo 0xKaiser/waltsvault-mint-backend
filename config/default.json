@@ -11,7 +11,7 @@
     "name": "Walts_Vault",
     "version": "1",
     "chainId": 5,
-    "verifyingContract": "0xE4B1903789c0CCE595A47A1dC921874DcF656F5f"
+    "verifyingContract": "0x8f723c1fbEDD6B7d389e2B610d947967c2CE4Ff6"
   },
 
   "types": {
