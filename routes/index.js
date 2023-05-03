@@ -9,9 +9,10 @@ router.use("/doc", swaggerUi.serve, swaggerUi.setup(swaggerFile));
 router.use("/signer", signerRoute);
 router.use("/metadata",metadataRoute);
 router.use("/contract-metadata",contractMetadata);
-router.get("/loaderio-111a6cc416ddec8a8f80a0103cf300d8", async (req, res) =>{
-    res.send("loaderio-111a6cc416ddec8a8f80a0103cf300d8");
+router.get("/loaderio-03cc07c3eef95c6fd9dab4de4263da3f", async (req, res) =>{
+    res.send("loaderio-03cc07c3eef95c6fd9dab4de4263da3f");
 })
+
 router.get("/", async (req, res) =>{
     res.send("Server Up");
 })
