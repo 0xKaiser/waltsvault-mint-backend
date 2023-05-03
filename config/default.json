@@ -10,8 +10,8 @@
   "domain": {
     "name": "Walts_Vault",
     "version": "1",
-    "chainId": 5,
-    "verifyingContract": "0x8f723c1fbEDD6B7d389e2B610d947967c2CE4Ff6"
+    "chainId": 1,
+    "verifyingContract": "0xf9ae821914097DFb8C23D27aA2ECfC22C279aFDc"
   },
 
   "types": {
