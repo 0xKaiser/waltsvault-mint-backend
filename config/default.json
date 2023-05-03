@@ -15,7 +15,7 @@
   },
 
   "types": {
-    "orderInfo": [
+    "signedData": [
       { "name": "nonce", "type": "uint256" },
       { "name": "allocatedSpots", "type": "uint256" },
       { "name": "userAddress", "type": "address" }
